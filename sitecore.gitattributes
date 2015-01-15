@@ -11,6 +11,11 @@
 *.msbuild text
 *.md      text
 
+### These files are binary
+*.jpg binary
+*.png binary
+*.gif binary
+
 ### Sitecore/TDS specific settings
 *.item -text ### TDS files should be treated as binary
 *.item merge=theirs
