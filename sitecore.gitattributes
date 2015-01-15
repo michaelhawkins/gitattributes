@@ -1,6 +1,6 @@
 * text=auto
 
-# These files are text and should be normalized (convert crlf => lf)
+### These files are text and should be normalized (convert crlf => lf)
 *.cs      text diff=csharp
 *.xaml    text
 *.csproj  text
@@ -11,7 +11,7 @@
 *.msbuild text
 *.md      text
 
-# Sitecore/TDS specific settings
-*.item -text # TDS files should be treated as binary
+### Sitecore/TDS specific settings
+*.item -text ### TDS files should be treated as binary
 *.item merge=theirs
 *.scproj merge=theirs
